@@ -1,0 +1,143 @@
+img{
+    width: 15%;
+    height: 20%;
+    margin-left: 25.5%;
+    margin-top: 8.5%;
+    position: absolute;
+}
+#rectangle {
+    margin-left:36%;
+    margin-right: 39%;
+    margin-top: -5%;
+    padding-right: 9%;
+    padding-left: 9%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border: solid 15px #2E365C;
+    border-radius: 15px;
+}
+.text {
+    color: #fff;
+    font-family: arial black;
+    font-size: 20px;
+    padding-right: 8.5%;
+    padding-left: 8%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    background: #2E365C;
+    margin-left: 27%;
+    margin-right:30%;
+    margin-bottom: 50%;
+    position: absolute;
+    border-radius:20px;
+    text-align: center;
+    z-index: 1;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-family: arial black;
+    font-size: 20px;
+    margin-left: 43%;
+    margin-top: 16%;
+    position: absolute;
+    padding: 18px;
+    border: none;
+    border-radius: 20px;
+    background: #4DB9D5;
+    z-index:2;
+    transition: all .1s;
+}
+.btn a:hover{
+    background: #B1F4F0;
+}
+.btn a:active{
+    background: #468CAB;
+}
+.pop_up{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top:0;
+    background: transparent;
+    z-index: 2;
+    transform: translateY(-44.5%) scale(0);
+    transition: .4s ease-in-out;
+
+}
+.pop_up.active {
+    transform: translateY(0%) scale(100%);
+    background: rgba(0, 0, 0, 0.8);
+
+}
+.pop_up_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.pop_up_body{
+    margin: auto;
+    background: #fff;
+    border-radius: 20px;
+}
+.pop_up_body p{
+    font-size: 25px;
+    color: #2E365C;
+    font-family: impact;
+    margin-left: 37%;
+    margin-top: 5%;
+
+}
+#text {
+    width: 500px;
+    max-width: 500px;
+    height: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin: 35px;
+    border-radius: 20px;
+    border: solid 3px #2E365C;
+    text-color: #2E365C;
+    font-size: 15px;
+    font-family: constantia;
+}
+#contact{
+    padding: 10px;
+    width: 84%;
+    max-width: 84%;
+    height: 3%;
+    border-radius: 8px;
+    margin-left: 6%;
+    margin-top: -5%;
+    border: solid 3px #2E365C;
+    text-color: #2E365C;
+    font-size: 12px;
+    font-family: constantia;
+}
+.pop_up_body button{
+    background: #2E365C;
+    padding: 2% 37.5%;
+    margin-bottom: 3%;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: constantia;
+    margin-left: 6%;
+    transition: all .2s;
+}
+.pop_up_body button:hover{
+    background: #468CAB;
+}
+
+.pop_up_body button:active{
+    background: #072C5D;
+}
+.pop_up_close {
+    margin-left: 93%;
+    margin-top: 2%;
+    font-size: 20px;
+    color: #2E365C;
+}

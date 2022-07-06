@@ -1,0 +1,97 @@
+.rectangle {
+    padding-left: 20%;
+    padding-top: 25%;
+    background: #5A4C6D;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 0%;
+  padding: 16px;
+  color: #fff;
+  margin-left: 23%;
+  margin-right: 23%;
+  font-weight: bold;
+  font-size: 40px;
+  transition: all .2s;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  color: #808080;
+}
+.text {
+  margin-left: 55%;
+  margin-top: 5%;
+  color: #fff;
+  font-size: 19px;
+  position: absolute;
+  max-width: 13%;
+  font-family: arial black;
+  position: absolute;
+}
+img {
+     margin-left: 30%;
+     margin-top:2%;
+     width: 10.5%;
+     height: 39%;
+     position: absolute;
+     }
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: all .2s;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.sait_news img{
+    width:19%;
+    height:20%;
+    margin-top: 6.5%;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.dots{position:absolute; margin-left: 47.5%; margin-top: 23%;}
+
+@-webkit-keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+h1 {
+    position: absolute;
+    color: #2E365C;
+    font-family: arial black;
+    font-size: 70px;
+    margin-top: -12%;
+    margin-left: 33%;
+}

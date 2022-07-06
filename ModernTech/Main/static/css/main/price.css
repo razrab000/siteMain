@@ -1,0 +1,132 @@
+h1{
+    margin-left:34%;
+    margin-right:25%;
+    border-radius: 20px;
+    margin-top: 2%;
+    font-family: arial black;
+    font-size: 40px;
+    color: #2E365C;
+    position: absolute;
+}
+#one{
+    margin-left: -18%;
+}
+#one h2 {
+    color: #fff;
+    font-size: 15px;
+    font-family: arial black;
+    margin-left: 30%;
+    margin-top: 8%;
+    position: absolute;
+    padding: 5%;
+    border-radius: 35px;
+    padding-top: 2%;
+    padding-bottom: 6%;
+    background: #BC92B0;
+}
+#one p{
+    color: #fff;
+    font-size: 20px;
+    font-family: arial black;
+    margin-left: 32.5%;
+    margin-top: 12%;
+    position: absolute;
+}
+
+#two {
+    margin-left: 9%;
+}
+#two h2 {
+    color: #fff;
+    font-size: 15px;
+    font-family: arial black;
+    margin-left: 30%;
+    margin-top: 20%;
+    position: absolute;
+    padding: 5%;
+    border-radius: 35px;
+    padding-top: 2%;
+    padding-bottom: 6%;
+    background: #F7A877;
+}
+#two p{
+    color: #fff;
+    font-size: 20px;
+    font-family: arial black;
+    margin-left: 35%;
+    margin-top: 24%;
+    position: absolute;
+}
+
+#three {
+    margin-left: 27%;
+}
+#three h2 {
+    color: #fff;
+    font-size: 15px;
+    font-family: arial black;
+    margin-left: 30%;
+    margin-top: 35%;
+    position: absolute;
+    padding: 5%;
+    border-radius: 35px;
+    padding-top: 2%;
+    padding-bottom: 6%;
+    background: #DF8C92;
+}
+#three p{
+    color: #fff;
+    font-size: 20px;
+    font-family: arial black;
+    margin-left: 36.5%;
+    margin-top: 39.5%;
+    position: absolute;
+}
+#four {
+    margin-left: 35%;
+}
+#four h2 {
+    color: #fff;
+    font-size: 15px;
+    font-family: arial black;
+    margin-left: 30%;
+    margin-top: 8%;
+    position: absolute;
+    padding: 5%;
+    border-radius: 35px;
+    padding-top: 2%;
+    padding-bottom: 6%;
+    background: #E8A788;
+}
+#four p{
+    color: #fff;
+    font-size: 20px;
+    font-family: arial black;
+    margin-left: 38.5%;
+    margin-top: 12.5%;
+    position: absolute;
+}
+#five {
+    margin-left: -22%;
+}
+#five h2 {
+    color: #fff;
+    font-size: 15px;
+    font-family: arial black;
+    margin-left: 30%;
+    margin-top: 35%;
+    position: absolute;
+    padding: 5%;
+    border-radius: 35px;
+    padding-top: 2%;
+    padding-bottom: 6%;
+    background: #72ADDE;
+}
+#five p{
+    color: #fff;
+    font-size: 20px;
+    font-family: arial black;
+    margin-left: 34.8%;
+    margin-top: 39.5%;
+    position: absolute;
+}
